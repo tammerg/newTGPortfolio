@@ -1,0 +1,27 @@
+<!doctype html>
+<html ng-app="portfolioApp">
+  <head>
+    <title></title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+     <div class="navbar-header">
+       <a class="navbar-brand">
+         Tammer Galal - Web Developer
+       </a>
+     </div>
+   </nav>
+   <div class="row">
+     <div>
+       {{ yourname }}
+     </div>
+     <div>
+        <input type="text" placeholder="Your Name Please" ng-model="yourname">
+     </div>
+   </div>
+  <script type="text/javascript" src="/js/app.js"></script>
+  </body>
+</html>
